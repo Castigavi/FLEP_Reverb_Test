@@ -1,17 +1,4 @@
 presetversion=1.1
- silentpatch=0
- developermode=0
- developerview=0
- defaultpatchset=patches.flp
- maxparameters=30
- defaultexename=tomb4.exe
- lastpreset=
- winposx=1425
- winposy=1830
- windowtitle=TREP2 v. 1.0 beta (15 Jan 2013)
- abouttext1=TREP2 - version 1.0 beta.//Based on TREP source code.
- abouttext2=Source code by Ensi.//Modified and refactored by Lwmte.
- abouttext3=Listen to the flowers grow.//God is an astronaut.
  lastfile=patches.bin,BEDF03DC
  lastfile=tomb4.exe,1B875DDF
  patchpreset=Font Customizer,0,5|128,128,128|128,128,128|192,128,64|64,16,0|224,192,0|64,32,0|128,128,128|16,16,16|150
