@@ -1,4 +1,4 @@
-## FLEP_Reverb_Test
+# FLEP_Reverb_Test
 
 Some time ago Chocolate released a new version of FLEP that practically saved the TRLE scene (I think) by fixing the false positive issues. What it also does though is it adds a new patch that adds reverb on PC. Unfortunately PSX reverb and DirectX reverb work in a completely different way and they have completely different presets, so you cannot use the default presets to get the same behavior.
 
@@ -7,7 +7,7 @@ Because of that I have decided to create new presets for FLEP, that mimic the wa
 My presets work in a similar fashion. I have picked one preset from DirectX defaults that sound the most similar (STONE ROOM preset) and edited it so its volume is different for each available option in TRLE/TE.
 The preset was tested with Tomb Editor, but it should be compatible with TRNG as well.
 
-# HOW TO INSTALL:
+HOW TO INSTALL:
 1. Download newest FLEP and its newest patches:
 https://www.tombraiderforums.com/showpost.php?p=8299040&postcount=848
 https://www.tombraiderforums.com/showpost.php?p=8300607&postcount=890
@@ -31,7 +31,7 @@ https://www.tombraiderforums.com/showpost.php?p=8300607&postcount=890
 Alternatively you can save your preset, then copy the values straight into your new *.fps file. Then you need to reload your preset so the changes are shown in FLEP.
 6. Click on Modify and test the game. If you did everything correctly it should work just fine now.
 
-# HOW TO USE IT?
+HOW TO USE IT:
 The way the presets work is pretty simple and it mimics the way reverb works on PSX, so:
 
 Small - this option gives a very subtle reverb. It is very hard to hear, especially with ambient music. It should be used in small rooms.
@@ -51,5 +51,5 @@ https://www.youtube.com/watch?v=PVvPyzMuelE
 
 P.S. - I know this looks like a tutorial and I even thought about putting it there, BUT this stuff is still WIP, I might still be making changes to it and moreover, I would absolutely love insight from the community how can I perfect the presets. Most threads in tutorial section are closed so that would be impossible. If a mod feels like this stuff belongs somewhere else though feel free to move it. :)
 
-# IMPORTANT:
+IMPORTANT:
 If you are going to use those presets and edit them, please share your results with the community. It will be the easiest and fastest way to correct the presets in order to get them as close to PSX reverb as possible.
