@@ -28,8 +28,14 @@ https://www.tombraiderforums.com/showpost.php?p=8300607&postcount=890
  
 (The values are in the same order as in FLEP)
 
+6. Set Sample File Size, Sample rate and Sample buffer array as below:
+
+ patchpreset=Sample file size,1,2097152
+ patchpreset=Sample rate,1,22050
+ patchpreset=Sample buffer array,1
+
 Alternatively you can save your preset, then copy the values straight into your new *.fps file. Then you need to reload your preset so the changes are shown in FLEP.
-6. Click on Modify and test the game. If you did everything correctly it should work just fine now.
+7. Click on Modify and test the game. If you did everything correctly it should work just fine now.
 
 HOW TO USE IT:
 The way the presets work is pretty simple and it mimics the way reverb works on PSX, so:
