@@ -21,18 +21,18 @@ https://www.tombraiderforums.com/showpost.php?p=8300607&postcount=890
 - Preset for Pipe: 4
 5. Check "Custom 1", "Custom 2", "Custom 3", "Custom 4" and for each set the values as below:
 
- patchpreset=Custom 1,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1700|0.017|100.0|100.0|5000.0
- patchpreset=Custom 2,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1000|0.017|100.0|100.0|5000.0
- patchpreset=Custom 3,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-400|0.017|100.0|100.0|5000.0
- patchpreset=Custom 4,1,-1000|-500|0.0|2.31|0.64|-711|0.012|400|0.017|100.0|100.0|5000.0
+ patchpreset=Custom 1,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1700|0.017|100.0|100.0|5000.0  
+ patchpreset=Custom 2,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1000|0.017|100.0|100.0|5000.0  
+ patchpreset=Custom 3,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-400|0.017|100.0|100.0|5000.0  
+ patchpreset=Custom 4,1,-1000|-500|0.0|2.31|0.64|-711|0.012|400|0.017|100.0|100.0|5000.0  
  
 (The values are in the same order as in FLEP)
 
 6. Set Sample File Size, Sample rate and Sample buffer array as below:
 
- patchpreset=Sample file size,1,2097152
- patchpreset=Sample rate,1,22050
- patchpreset=Sample buffer array,1
+ patchpreset=Sample file size,1,2097152  
+ patchpreset=Sample rate,1,22050  
+ patchpreset=Sample buffer array,1  
 
 Alternatively you can save your preset, then copy the values straight into your new *.fps file. Then you need to reload your preset so the changes are shown in FLEP.
 7. Click on Modify and test the game. If you did everything correctly it should work just fine now.
