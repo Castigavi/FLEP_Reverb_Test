@@ -8,34 +8,29 @@ My presets work in a similar fashion. I have picked one preset from DirectX defa
 The preset was tested with Tomb Editor, but it should be compatible with TRNG as well.
 
 HOW TO INSTALL:
-1. Download newest FLEP and its newest patches:
-https://www.tombraiderforums.com/showpost.php?p=8299040&postcount=848
-https://www.tombraiderforums.com/showpost.php?p=8300607&postcount=890
-2. Put all the files in the folder where your tomb4.exe is and open FLEP.
-3. Check "Reverb base" and "Reverb classic mode" options.
-4. Click on "Reverb classic mode" and set its values to:
-- Preset for outside: 0
-- Preset for Small Room: 1
-- Preset for Medium Room: 2
-- Preset for Large Room: 3
-- Preset for Pipe: 4
-5. Check "Custom 1", "Custom 2", "Custom 3", "Custom 4" and for each set the values as below:
 
+Easy way (if you don't use other FLEP patches):
+1. Go to the top of this page, click on green Code button and click Download Zip option.
+2. Copy flep.cfg, flep.dll, flep.exe, FLEP_ReverbX.fps (X being highest number), patches.bin, patches.dat, patches.flp, plugins.parc, preset.fps, tomb4.exe files to your TRLE folder.
+3. It should work already. You can still use FLEP to apply additional patches.
+
+Advanced way (if you already use FLEP for other things):
+1. Make sure your current FLEP configuration is saved into a preset file.
+2. Download newest version of FLEP and newest patches version here: https://www.tombraiderforums.com/showthread.php?t=196854&page=89
+3. Download FLEP_ReverbX.fps preset from the repository. Open it in Notepad and copy these values:
+ patchpreset=Sample file size,1,2097152  
+ patchpreset=Sample rate,1,22050  
+ patchpreset=Sample buffer array,1  
+ patchpreset=Reverb base,1  
+ patchpreset=Reverb classic mode,1,0|1|2|3|4  
+ patchpreset=Reverb advanced mode,0  
  patchpreset=Custom 1,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1700|0.017|100.0|100.0|5000.0  
  patchpreset=Custom 2,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1000|0.017|100.0|100.0|5000.0  
  patchpreset=Custom 3,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-400|0.017|100.0|100.0|5000.0  
  patchpreset=Custom 4,1,-1000|-500|0.0|2.31|0.64|-711|0.012|400|0.017|100.0|100.0|5000.0  
- 
-(The values are in the same order as in FLEP)
-
-6. Set Sample File Size, Sample rate and Sample buffer array as below:
-
- patchpreset=Sample file size,1,2097152  
- patchpreset=Sample rate,1,22050  
- patchpreset=Sample buffer array,1  
-
-Alternatively you can save your preset, then copy the values straight into your new *.fps file. Then you need to reload your preset so the changes are shown in FLEP.
-7. Click on Modify and test the game. If you did everything correctly it should work just fine now.
+4. Open your preset file and copy the above values into their corresponding places. Save and close.
+5. Before patching MAKE SURE that your patches.bin file is clean (so it wasn't patched before).
+5. Patch the game and test.
 
 HOW TO USE IT:
 The way the presets work is pretty simple and it mimics the way reverb works on PSX, so:
