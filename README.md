@@ -35,7 +35,7 @@ Copy them and close the file (values might differ in later versions of FLEP_Reve
 
 If after patching the game you have crashes or other issues, please refer to THIS post for troubleshooting.
 
-Troubleshooting:
+TROUBLESHOOTING:
 1. Make sure patches.bin was not extensively modified before.
  - FLEP inherits patching behaviour from TREP, which is good for simple patches but not so much for complex ones like reverb. According to Chocolate, if your game crashes it is possible that you have messed around with "advanced reverb" mode and then switched to "classic" (and vice versa). This may result in a faulty patches.bin. If that's the case, redownload patches.bin from latest FLEP version (or my repository) and try patching again.
  - You can still use your own presets and apply new ones afterwards. This step is only to make sure that FLEP patches a "clean" patches.bin file.
