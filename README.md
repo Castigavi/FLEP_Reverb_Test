@@ -17,7 +17,7 @@ Easy way (if you don't use other FLEP patches):
 Advanced way (if you already use FLEP for other things):
 1. Make sure your current FLEP configuration is saved into a preset file.
 2. Download newest version of FLEP and newest patches version here: https://www.tombraiderforums.com/showthread.php?t=196854&page=89
-3. Download FLEP_ReverbX.fps preset from the repository. Open it in Notepad and copy these values:
+3. Download FLEP_ReverbX.fps preset from the repository. Open it in Notepad and find these lines:  
  patchpreset=Sample file size,1,2097152  
  patchpreset=Sample rate,1,22050  
  patchpreset=Sample buffer array,1  
@@ -27,10 +27,21 @@ Advanced way (if you already use FLEP for other things):
  patchpreset=Custom 1,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1700|0.017|100.0|100.0|5000.0  
  patchpreset=Custom 2,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-1000|0.017|100.0|100.0|5000.0  
  patchpreset=Custom 3,1,-1000|-500|0.0|2.31|0.64|-711|0.012|-400|0.017|100.0|100.0|5000.0  
- patchpreset=Custom 4,1,-1000|-500|0.0|2.31|0.64|-711|0.012|400|0.017|100.0|100.0|5000.0  
+ patchpreset=Custom 4,1,-1000|-500|0.0|2.31|0.64|-711|0.012|400|0.017|100.0|100.0|5000.0   
+Copy them and close the file (values might differ in later versions of FLEP_ReverbX.fps file so always copy them from the file itself, not above).
 4. Open your preset file and copy the above values into their corresponding places. Save and close.
 5. Before patching MAKE SURE that your patches.bin file is clean (so it wasn't patched before).
 5. Patch the game and test.
+
+If after patching the game you have crashes or other issues, please refer to THIS post for troubleshooting.
+
+Troubleshooting:
+1. Make sure patches.bin was not extensively modified before.
+ - FLEP inherits patching behaviour from TREP, which is good for simple patches but not so much for complex ones like reverb. According to Chocolate, if your game crashes it is possible that you have messed around with "advanced reverb" mode and then switched to "classic" (and vice versa). This may result in a faulty patches.bin. If that's the case, redownload patches.bin from latest FLEP version (or my repository) and try patching again.
+ - You can still use your own presets and apply new ones afterwards. This step is only to make sure that FLEP patches a "clean" patches.bin file.
+2. Check your number formats settings in Control Panel. It seems FLEP has issues with decimal symbols (just like Leikkuri) so it may crash if your region format uses comma instead of dot for decimals (eg. 1,23 instead of 1.23).
+ - To fix that go to All Settings / Time & Language / Date, time & regional formatting and set 'Regional format' to English (United Kingdom).
+ - Alternatively you can instead go to Additional date, time & regional settings / Change date, time or number formats / Additional settings and change 'Decimal symbol' there to dot (you can also go there to check if your decimal symbol really is dot instead of comma).
 
 HOW TO USE IT:
 The way the presets work is pretty simple and it mimics the way reverb works on PSX, so:
