@@ -59,8 +59,6 @@ PSX Reverb Test Level: https://drive.google.com/file/d/1m3OEA0jGPQZG9wMNZ1ihFhUY
 
 https://www.youtube.com/watch?v=PVvPyzMuelE
 
-* - The link redirects to my github page with the project I used to test FLEP reverb. It is possible that in future I might do more changes to those presets. All the changes will be visible on develop branch before merging with master.
-
 P.S. - I know this looks like a tutorial and I even thought about putting it there, BUT this stuff is still WIP, I might still be making changes to it and moreover, I would absolutely love insight from the community how can I perfect the presets. Most threads in tutorial section are closed so that would be impossible. If a mod feels like this stuff belongs somewhere else though feel free to move it. :)
 
 IMPORTANT:
