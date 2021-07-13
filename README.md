@@ -46,10 +46,10 @@ TROUBLESHOOTING:
 HOW TO USE IT:
 The way the presets work is pretty simple and it mimics the way reverb works on PSX, so:
 
-Small - this option gives a very subtle reverb. It is very hard to hear, especially with ambient music. It should be used in small rooms.
-Medium - This one gives a bit stronger reverb, but it is still rather subtle. It should be used in medium sized rooms.
-Big - This gives a strong and noticeable reverb. The echo is very prominent. It should be used in big rooms only.
-Pipe - This one has the strongest reverb, super loud. It was barely ever used in the original games and it should only be used in really huge rooms I suppose.
+Small - this option gives a very subtle reverb. It is very hard to hear, especially with ambient music. It should be used in small rooms.  
+Medium - This one gives a bit stronger reverb, but it is still rather subtle. It should be used in medium sized rooms.  
+Big - This gives a strong and noticeable reverb. The echo is very prominent. It should be used in big rooms only.  
+Pipe - This one has the strongest reverb, super loud. It was barely ever used in the original games and it should only be used in really huge rooms I suppose.  
 
 I have also made a short video from one of my WIP custom levels that show what the reverb presets sound like:
 
