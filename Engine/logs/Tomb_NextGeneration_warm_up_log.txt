@@ -1,0 +1,3 @@
+Attaching Library...
+Completed the attaching of Tomb_NextGeneration.dll
+The library has been successfully attached!
